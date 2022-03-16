@@ -1,0 +1,266 @@
+/* main style */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    font-family:  'Segoe UI';
+    background-color: #fdfdfd;
+} 
+
+li{
+    list-style: none;
+}
+/*
+Header (Diah)
+*/
+
+.wrapper {
+  
+  width: 1170px;
+  height: auto;
+  border-bottom: #A06CD5;
+  
+}
+
+header {
+  padding: 20px 90px;
+  background-color: #6247aa;
+  width: 100%;
+}
+.header-logo {
+  color: #fff;  
+  padding-bottom: 10px;
+  text-align: left;
+  border-bottom: 3px solid #fff;
+}
+.header-list {
+  list-style: none;
+  float: left;
+  font-size: medium;
+  
+}
+/* EDIT BY AZIZAH */
+.header-list select{
+  background-color: #6247aa;
+  color: #fff;
+  border: none;
+  font-size: medium;
+}
+
+.header-list span{
+  padding-right: 5px;
+}
+/* Akhir Edit by Azizah */
+
+.header-list a{
+    font-weight: bolder;
+    color: #fff;
+}
+.header-list li {
+  float: left;
+  padding: 0 15px;
+  font-weight: 30;
+  border-right: 2px solid #fff;
+}
+.header.list:hover {
+  font-weight: 500;
+}
+.login {
+  color: #fff;  
+  list-style: none;
+  text-align: right;
+  margin-left: 20px;
+}
+
+/*
+Body 1 (Efria Surya)
+*/
+
+.hero-container{
+    width: 100%;
+    height: 500px;
+    padding: 20px 90px;
+    background-color: #B185DB;
+}
+.main-title{
+    width: 50%;
+    float: left;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+}
+.main-img img{
+    float: right;
+}
+.main-title  h1{
+    margin-top: 60px;
+    font-size: 60px;
+    font-weight: bold;
+}
+.main-title  p{
+    font-size: 30px;
+}
+
+/* 
+Body 2 (Daniel)
+*/
+
+.img-animation{
+  float: left;
+  width: 35%;
+  
+}
+.isi-kanan{
+  float: right;
+  width: 25%;
+}
+.isi-kanan span{
+  font-weight: bolder;
+}
+.atas {
+  width: 100%;
+  padding: 7% 6%;
+  /*background-color: #A06CD5;*/
+  height: 300px;
+  color: black;
+  
+}
+
+.atas p {
+  margin-bottom: 3px;
+  font-size: 25px;
+  
+}
+
+/* 
+Body 3 (Bayu)
+*/
+
+.body3 {
+  width: 100%;
+  height: 550px;
+  background-color: #fff;
+  padding-bottom: 80px;
+}
+
+.body3-item {
+  float: left;
+  border: 3px solid #815ac0;
+  background-color: #6247aa;
+  opacity: 0.85;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 50px;
+  color: #fff;
+  width: 30%;
+  height: 100%;
+}
+
+.body3-item h3 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #815ac0;
+  margin-bottom: 20px;
+  padding-bottom: 40px;
+}
+
+.body3-item input {
+  width: 90%;
+  height: 40px;
+  font-size: 15px;
+  padding: 0px 6px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 3px solid #a06cd5;
+}
+
+.body3-item label {
+  font-weight: bold;
+  margin: 10px;
+}
+
+.body3-item .btn {
+  padding: 10px;
+  width: 95%;
+}
+
+.body3-item p {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.body3-item li {
+  font-weight: bolder;
+  margin: 20px;
+}
+
+.lacak {
+  color: #fff;
+  background-color: #9163cb;
+  font-weight: bold;
+  opacity: 0.9;
+}
+
+.lacak:hover {
+  transition: 300ms;
+  color: #6247aa;
+  background-color: #fff;
+}
+
+.subscribe:hover {
+  transition: 300ms;
+  color: #6247aa;
+  background-color: #fff;
+}
+
+.subscribe {
+  color: #fff;
+  background-color: #a06cd5;
+  font-weight: bold;
+  opacity: 0.9;
+}
+
+/* 
+Footer (Azizah)
+*/
+
+/* FOOTER CSS */
+
+.container{
+    width: 1170px;
+    height: auto;
+}
+
+.title h2{
+    padding-bottom: 20px;
+}
+
+.title p{
+    padding-top: 15px;
+    width: 80%
+}
+.item{
+    float: left;
+    width: 33%;
+}
+
+.item span{
+    padding-right: 16px;
+}
+
+.list-footer-left li{
+    float: left;
+}
+
+footer{
+  background-color: #6247aa;
+  width: 100%;
+  height: 270px;
+  padding: 30px 90px;
+  color: #fff;
+}
